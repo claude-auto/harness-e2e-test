@@ -91,20 +91,20 @@
   "hotPaths": [
     {
       "path": "package.json",
-      "accessCount": 3,
-      "lastAccessed": 1777277692637,
+      "accessCount": 5,
+      "lastAccessed": 1777278150540,
       "type": "file"
     },
     {
       "path": "tsconfig.json",
-      "accessCount": 3,
-      "lastAccessed": 1777277692988,
+      "accessCount": 4,
+      "lastAccessed": 1777278127150,
       "type": "file"
     },
     {
       "path": "postcss.config.mjs",
-      "accessCount": 3,
-      "lastAccessed": 1777277693541,
+      "accessCount": 4,
+      "lastAccessed": 1777278264970,
       "type": "file"
     },
     {
