@@ -1,0 +1,136 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777277412345,
+  "projectRoot": "/home/junpyo/projects/harness-e2e-test",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "18",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "18",
+        "category": "frontend"
+      },
+      {
+        "name": "next",
+        "version": "14.2.35",
+        "category": "fullstack"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1777277412330,
+      "keyFiles": []
+    },
+    "src/app": {
+      "path": "src/app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1777277412331,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "package.json",
+      "accessCount": 3,
+      "lastAccessed": 1777277692637,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 3,
+      "lastAccessed": 1777277692988,
+      "type": "file"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "accessCount": 3,
+      "lastAccessed": 1777277693541,
+      "type": "file"
+    },
+    {
+      "path": "tailwind.config.ts",
+      "accessCount": 2,
+      "lastAccessed": 1777277477570,
+      "type": "file"
+    },
+    {
+      "path": ".eslintrc.json",
+      "accessCount": 1,
+      "lastAccessed": 1777277428224,
+      "type": "file"
+    },
+    {
+      "path": "next.config.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1777277428346,
+      "type": "file"
+    },
+    {
+      "path": "src/app/globals.css",
+      "accessCount": 1,
+      "lastAccessed": 1777277698486,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
