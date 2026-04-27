@@ -32,8 +32,8 @@
   "hotPaths": [
     {
       "path": "src/components/Hero.test.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1777313272056,
+      "accessCount": 2,
+      "lastAccessed": 1777313356914,
       "type": "file"
     }
   ],
