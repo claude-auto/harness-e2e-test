@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777360297795,
+  "projectRoot": "/home/junpyo/projects/harness-e2e-test",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "tsconfig.json",
+      "accessCount": 4,
+      "lastAccessed": 1777360422229,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
