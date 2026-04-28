@@ -32,8 +32,8 @@
   "hotPaths": [
     {
       "path": "tsconfig.json",
-      "accessCount": 3,
-      "lastAccessed": 1777360361377,
+      "accessCount": 4,
+      "lastAccessed": 1777360422229,
       "type": "file"
     }
   ],
