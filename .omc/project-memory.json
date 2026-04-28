@@ -32,8 +32,8 @@
   "hotPaths": [
     {
       "path": "package.json",
-      "accessCount": 1,
-      "lastAccessed": 1777359027398,
+      "accessCount": 2,
+      "lastAccessed": 1777359078699,
       "type": "file"
     }
   ],
