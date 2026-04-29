@@ -1,8 +1,7 @@
-import { createApp } from './app';
+import { createServer } from './server.js';
 
-const PORT = process.env.PORT || 3000;
-const app = createApp();
+const PORT = Number(process.env.PORT ?? 3000);
 
-app.listen(PORT, () => {
+createServer().listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
