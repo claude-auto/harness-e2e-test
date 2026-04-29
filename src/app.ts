@@ -5,4 +5,8 @@ const app = express();
 
 app.use('/hello', helloRouter);
 
+app.get('/ping', (_req, res) => {
+  res.status(200).json({ pong: true });
+});
+
 export default app;
