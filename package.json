@@ -2,19 +2,16 @@
   "name": "harness-e2e-test",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "vitest run"
   },
-  "dependencies": {
-    "express": "^4.19.2"
-  },
   "devDependencies": {
-    "@types/express": "^4.17.21",
     "@types/node": "^20.11.30",
-    "@types/supertest": "^6.0.2",
-    "supertest": "^6.3.4",
     "typescript": "^5.4.3",
     "vitest": "^1.4.0"
   }
