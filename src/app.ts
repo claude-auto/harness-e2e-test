@@ -1,8 +1,11 @@
-import express from 'express';
-import helloRouter from './routes/hello.js';
+import express, { type Express } from 'express';
 
-const app = express();
+export function createApp(): Express {
+  const app = express();
 
-app.use('/hello', helloRouter);
+  app.get('/status', (_req, res) => {
+    res.status(200).json({ ok: true });
+  });
 
-export default app;
+  return app;
+}
