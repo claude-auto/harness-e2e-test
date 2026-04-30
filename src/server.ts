@@ -9,6 +9,12 @@ export function createServer(): http.Server {
       res.end(JSON.stringify({ version: VERSION }));
       return;
     }
+    if (req.method === 'GET' && req.url === '/healthcheck') {
+      res.statusCode = 200;
+      res.setHeader('content-type', 'application/json');
+      res.end(JSON.stringify({ status: 'ok' }));
+      return;
+    }
     res.statusCode = 404;
     res.setHeader('content-type', 'application/json');
     res.end(JSON.stringify({ error: 'not found' }));
